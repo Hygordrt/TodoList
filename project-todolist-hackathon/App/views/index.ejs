@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>todo-list</title>
+</head>
+
+<body>
+    <div class="todo">
+        <div class="todo__title">
+            LIST
+        </div>
+
+        <div class="todo__list">
+            <ul>
+                <li>Tarefa um<a href="/del/1">❌</a></li>
+                <li>Tarefa dois<a href="/del/2">❌</a></li>
+                <li>Tarefa três<a href="/del/3">❌</a></li>
+            </ul>
+        </div>
+
+        <form class="todo__new-item" id="newItem" action="/" method="POST">
+            <input type="text" name="tarefa" placeholder="Digite a tarefa">
+
+            <input class="btn" type="submit" value="Adicionar">
+        </form>
+    </div>
+</body>
+
+</html>
